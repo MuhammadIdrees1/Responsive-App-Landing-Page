@@ -114,7 +114,7 @@ header label {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(./images/home-bg-img.png) no-repeat;
+  background: url(./images/home-bg-img.webp) no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -134,13 +134,13 @@ header label {
   }
 }
 
-.home .content h3 {
+.home .content h1 {
   font-size: 5.5rem;
   color: #333;
   text-transform: uppercase;
 }
 
-.home .content h3 span {
+.home .content h1 span {
   color: var(--pink);
   text-transform: uppercase;
 }
@@ -174,7 +174,7 @@ header label {
   height: 15rem;
 }
 
-.features .box-container .box h3 {
+.features .box-container .box h2 {
   font-size: 2rem;
   color: #333;
   padding-top: 1rem;
@@ -187,7 +187,7 @@ header label {
 }
 
 .about {
-  background: url(./images/about-bg.png) no-repeat;
+  background: url(./images/about-bg.webp) no-repeat;
   background-size: cover;
   background-position: center;
   padding-bottom: 3rem;
@@ -212,7 +212,7 @@ header label {
   flex: 1 1 40rem;
 }
 
-.about .column .content h3 {
+.about .column .content h2 {
   font-size: 3rem;
   color: #666;
 }
@@ -230,12 +230,12 @@ header label {
 .newsletter{
     text-align: center;
     padding: 5rem 1rem;
-    background: url(./images/subscribe-bg.png);
+    background: url(./images/subscribe-bg.webp);
     background-size: cover;
     background-position: center;
 }
 
-.newsletter h3{
+.newsletter h2{
     color: #fff;
     font-size: 3rem;
     text-transform: uppercase;
@@ -323,7 +323,7 @@ header label {
     margin-top: 2rem;
 }
 
-.review .box-container .box .user h3{
+.review .box-container .box .user h2{
     color: var(--pink);
     font-size: 2rem;
 }
@@ -474,7 +474,7 @@ header label {
 
 footer{
   padding-top: 3rem;
-  background: url(./images/footer-bg.png) no-repeat;
+  background: url(./images/footer-bg.webp) no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -489,7 +489,7 @@ footer .box-container .box{
   margin: 2rem;
 }
 
-footer .box-container .box h3{
+footer .box-container .box h2{
   font-size: 2.5rem;
   padding: 1rem 0;
   color: #fff;
@@ -533,7 +533,7 @@ footer .box-container .box .info i{
   text-align: center;
 }
 
-footer h1{
+footer h2{
   font-size: 2rem;
   font-weight: normal;
   letter-spacing: .1rem;
@@ -615,7 +615,7 @@ footer h1{
     width: 100%;
   }
 
-  .home .content h3 {
+  .home .content h2 {
     font-size: 3.6rem;
   }
 
